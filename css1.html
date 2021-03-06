@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms&Inputs</title>
+        <link rel="stylesheet" href="css1.css" />
+    </head>
+    <body>
+        <h1>Forms&Inputs</h1>
+      
+        <hr />
+        <br />
+        <form>
+            <fieldset>
+                <legend>Pizza order</legend>
+                Your name: <input type="text" name="name" placeholder="First name + Last Name" min="3" max="10" required value="Jon Doe"/><br /><br />
+                Your email</b>: <input type="email" name="email" placeholder="name@domain.com" required/><br /><br />
+                Topping:</p>
+                <input type="radio" id="supreme" name="topping" value="Supreme" />
+                <label for="supreme">Supreme</label>
+                <input type="radio" id="veggie" name="topping" value="Vegetarian" />
+                <label for="veggie">Vegetarian</label>
+                <input type="radio" id="hawaii" name="topping" value="Hawaian" />
+                <label for="hawaii">Hawaian</label><br /><br />
+                <label for="sauce">Sauce:</label>
+                <select id="sauce" name="sauce" multiple>
+                    <option value="tomato">Tomato</option>
+                    <option value="mayo">Mayo</option>
+                    <option value="sweetchilli">Sweet chilli</option>
+                </select><br /><br />
+                <p>Extras:</p>
+                <input type="checkbox" name="cheese" id="cheese" />
+                <label for="cheese">Cheese</label>
+                <input type="checkbox" name="onions" id="onions" />
+                <label for="onions">Onions</label>
+                <input type="checkbox" name="olives" id="olives" />
+                <label for="olives">Olives</label><br /><br />
+                <label for="number">Phone number:</label>
+                <input type="number" id="number" name="number" placeholder="07..." value="0733222440"/><br /><br />
+                <label for="date">Delivery date:</label>
+                <input type="date" id="date" name="date " />
+                <p>Delivery instructions</p>
+                <textarea name="instructions" rows="10" cols="50" placeholder="Tell us your address and any other instructions" required></textarea><br /><br />
+                <button type="submit">Send order</button>
+                <input type="reset" value="Reset dates" />
+                
+
+            </fieldset>
+        </form>
+    </body>
+</html>
